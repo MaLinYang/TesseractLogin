@@ -40,11 +40,9 @@ namespace TesseractLogin
         public WebUser()
         {
             var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVW7XYZ,，￥$~!*&^%# -+/\"";
-            a_z = chars.ToCharArray();
-            //_userName = "170367"; //初始化用户
-            //_password = "mly170367"; //初始化密码
-            _userName = "170367"; //初始化用户
-            _password = "mly170367"; //初始化密码
+            a_z = chars.ToCharArray();       
+            _userName = "281493779"; //初始化用户
+            _password = "qwer1234"; //初始化密码
             Login();
         }
 
